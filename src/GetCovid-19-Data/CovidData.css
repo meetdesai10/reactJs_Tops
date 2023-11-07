@@ -1,0 +1,15 @@
+.red{
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+
+.red:hover{
+    background-color: red;
+}
+.green{
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+.green:hover{
+    background-color: green;
+}

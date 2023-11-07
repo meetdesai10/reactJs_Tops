@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 600px;
+  width: 600px;
+  background-color: cadetblue;
+  border: 1px solid  cadetblue;
+  margin: 80px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 2px grey;
+}
+.main h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.main .input {
+  background-color: cadetblue;
+  border: none;
+  border-bottom: 3px solid grey;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.main .input:focus {
+  outline: none;
+}
+.main .flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+.main .flex-box .addicon {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.iconsset {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 0px 20px;
+ 
+}
+.main .iconsset .lilist {
+  margin-top:25px;
+  margin-left: 8px;
+  font-size: 20px;
+}
+.main .genderbtn{
+  margin-left: 20px;
+  font-size: 20px;
+  display: flex;
+  gap: 5px;
+}
+.main .selectgender{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.main .genderbtn .gender{
+  width: 17px;
+}
+.delete {
+  cursor: pointer;
+  height: 30px;
+  padding: 0px 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  transition: .2s all ease-in-out;
+}
+.delete:hover{
+  background-color: red;
+  color: white;
+}
+.update {
+  cursor: pointer;
+  height: 30px;
+  padding: 0px 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  transition: .2s all ease-in-out;
+}
+.update:hover{
+  background-color: green;
+  color: white;
+}
+.main .updatevalue {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.main .flex-box .btns{
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainBox {
+  height: auto;
+  width: 300px;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  margin: 50px auto;
+  padding: 15px 0px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 2px grey;
+}
+.mainBox h4 {
+  color: black;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+}
+.mainBox .que {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin: 0px 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.mainBox .ans {
+  margin: 0px 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0px 8px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  transition: .3s all ease-in-out;
+}
+.mainBox .accordion {
+  margin-top: 20px;
+}
+
+.mainBox .accordion .que .icon {
+  background-color: white;
+  padding: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+}

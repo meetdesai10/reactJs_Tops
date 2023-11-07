@@ -1,0 +1,48 @@
+/* Home page */
+
+.main-container {
+  height: 85vh;
+}
+.navbarHover:hover {
+  color: green;
+}
+.main-container .line{
+    margin: 20px 0px;
+}
+.main-container .ser{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    transition: .2s all ease-in-out;
+}
+.main-container .ser:hover{
+    background-color: white;
+    color: black;
+}
+.main-container .home-image{
+   
+    width: 100%;
+    animation: upDwon-Image 2s ease-in-out infinite alternate-reverse ;
+}
+@keyframes upDwon-Image {
+    0%{
+        transform: translateY(10px);
+    }100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+
+/* service page ****************************** */
+
+.imgcard{
+    height: 300px;
+}
+.card-img-top{
+    height: 100%;
+}

@@ -27,6 +27,7 @@ import BuyNow from "./WebsiteProject/Navbar/BuyNow";
 import Meet from "./meet";
 import { ContactUs } from "./WebsiteProject/Navbar/ContactUs";
 import { MyProvider } from "./usecontext/MyContext";
+import Reducre from "./useReducer/Reducre";
 export default function App() {
   return (
     <>
@@ -38,9 +39,9 @@ export default function App() {
       {/* <Inputs/> */}
       {/* <Radio/> */}
         {/* <ComA /> */}
-      <MyProvider>
+      {/* <MyProvider>
         <ComX />
-      </MyProvider>
+      </MyProvider> */}
       {/* <UseEffect/> */}
       {/* <UseEffectPractical/> */}
       {/* <CovidData/> */}
@@ -60,6 +61,7 @@ export default function App() {
       {/* <Form/> */}
       {/* <Data/> */}
       {/* <Meet/> */}
+      {/* <Reducre/> */}
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Todolist/ToDoList.css";
+import "./ToDoList.css";
 import AddIcon from "@mui/icons-material/Add";
 import UpdateIcon from "@mui/icons-material/Update";
 export default function ToDoList() {
@@ -50,7 +50,7 @@ export default function ToDoList() {
     setpreradiovalue(() => {
       preradiovalue.splice(indexvalue, 1, radiovalue);
       return [...preradiovalue];
-     });
+    });
     document
       .querySelectorAll(".gender")
       .forEach((value) => (value.checked = false));
@@ -137,7 +137,6 @@ export default function ToDoList() {
                   <p>{preradiovalue[index]}</p>
                 </div>
               </React.Fragment>
-              
             );
           })}
         </ol>

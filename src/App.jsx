@@ -28,6 +28,7 @@ import Meet from "./meet";
 import { ContactUs } from "./WebsiteProject/Navbar/ContactUs";
 import { MyProvider } from "./usecontext/MyContext";
 import Reducre from "./useReducer/Reducre";
+import UseRef from "./useRef/UseRef";
 export default function App() {
   return (
     <>
@@ -38,7 +39,7 @@ export default function App() {
       {/* <Header/> */}
       {/* <Inputs/> */}
       {/* <Radio/> */}
-        {/* <ComA /> */}
+      {/* <ComA /> */}
       {/* <MyProvider>
         <ComX />
       </MyProvider> */}
@@ -62,6 +63,7 @@ export default function App() {
       {/* <Data/> */}
       {/* <Meet/> */}
       {/* <Reducre/> */}
+      {/* <UseRef /> */}
     </>
   );
 }
